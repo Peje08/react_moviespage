@@ -55,7 +55,7 @@ function App() {
           {pelicula.descripcion}
         </Pelicula>
       )}
-  <Paginacion pagina={paginaActual} total={getTotalPaginas} onChange={(pagina)=>{
+  <Paginacion pagina={paginaActual} total={getTotalPaginas()} onChange={(pagina)=>{
     setPaginaActual(pagina)
   }}/>
 
